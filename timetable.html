@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 30px auto;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            width: 10%;
+            text-align: center;
+        }
+        th {
+            background-color: #F2F2F2;
+        }
+        .lunch {
+            background-color: #FFE0B2;
+            font-weight: bold;
+        }
+        .sub1{
+     background-color: #b2ffbf;
+        }
+        .sub2{
+     background-color: #b2fcff;
+        }
+        .sub3{
+     background-color: #deffb2;
+        }
+        .sub4{
+     background-color: #f5a2b0;
+        }
+        .Game{
+     background-color: #0cb2ff;
+     color: rgb(255, 255, 255);
+        }
+        th{
+            background-color: #F2F2F2;
+            color: #333;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">School Time Table</h2>
+    <table>
+    <thead>
+    <tr>
+    <th class="Time">Time</th>
+    <th rowspan="2">7 to 9 am</th>
+    <th rowspan="2">9 to 10am</th>
+    <th rowspan="2">10 to 12 pm</th>
+    <th rowspan="2">12 to 1 pm</th>
+    <th rowspan="2">Date</th>
+    </tr>
+    <tr>
+    <th class="Day">Day</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th>Monday</th>
+          <td class="sub3">English</td>
+        <td class="sub1">Science</td>
+        <td class="sub2">Math</td>
+      
+        <td rowspan="7" class="lunch">Lunch Break</td>
+        <td class="sub4">Hindi</td>
+        </tr>
+        <tr>
+        <th >Tuesday</th>
+            <td class="sub1">Science</td>
+        <td class="sub2">Math</td>
+        <td class="Game">Game</td>
+      <td class="sub1">Science</td>
+        </tr>
+        <tr>
+        <th>Wednesday</th>
+          <td class="sub4">Hindi</td>
+        <td class="sub2">Math</td>
+    <td class="sub1">Science</td>       
+     <td class="sub3">English</td>
+        </tr>
+        <tr>
+        <th>Thrusday</th>
+           <td class="sub3">English</td>
+        <td class="sub3">English</td>
+      <td class="sub1">Science</td>
+        <td class="sub2">Math</td>
+        </tr>
+        <tr>
+        <th>Friday</th>
+       <td class="sub2">Math</td>
+               <td class="sub4">Hindi</td>
+        <td class="sub2">Math</td>
+        <td class="sub1">Science</td>
+        </tr>
+          <tr>
+        <th>Saturday</th>
+       <td class="sub1">Science</td>
+        <td class="sub2">Math</td>
+        <td class="Game">Game</td>
+              <td class="sub4">Hindi</td>
+        </tr>
+        
+    </tbody>
+    </table>
+</body>
+</html>
